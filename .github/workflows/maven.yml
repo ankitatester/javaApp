@@ -22,5 +22,5 @@ jobs:
         cache: 'maven'
 
     - name: Build with Maven
-      working-directory: maven_test # specify the directory if pom.xml is not in the root
+      working-directory: pom.xml # specify the directory if pom.xml is not in the root
       run: mvn -B package --file pom.xml
