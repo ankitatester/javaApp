@@ -23,7 +23,9 @@ jobs:
         distribution: 'adopt'
 
     - name: Change directory
-      run: cd C:/Users/AnkitaSarkar/maven_test
+      run: cd "maven smplrn"
+      env:
+        JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/11.0.24-8/x64
 
     - name: Build with Maven
       run: mvn clean install
