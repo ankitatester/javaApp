@@ -18,8 +18,9 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '11'
-        distribution: 'temurin' # You can also use 'adopt', 'zulu', etc.
-        cache: 'maven' # Optionally enable caching for Maven
+        distribution: 'temurin'
+        cache: 'maven'
 
     - name: Build with Maven
+      working-directory: maven_test # specify the directory if pom.xml is not in the root
       run: mvn -B package --file pom.xml
