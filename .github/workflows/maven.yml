@@ -23,7 +23,7 @@ jobs:
         distribution: 'adopt'
 
     - name: Change directory
-      run: cd "maven smplrn"
+      run: cd "maven_test"
       env:
         JAVA_HOME: /opt/hostedtoolcache/Java_Adopt_jdk/11.0.24-8/x64
 
