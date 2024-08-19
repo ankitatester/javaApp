@@ -1,4 +1,4 @@
-name: Java App  GitHub actions - To Test Repo - Trigger Jenkins Job
+name: Java App - GitHub actions - To Test Repo - Trigger Jenkins Job
 run-name: Test Repo - Trigger Jenkins Job
 
 on:
